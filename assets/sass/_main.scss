@@ -1,12 +1,14 @@
 @import "ini/function";
 @import "setting/setting_pak";
 @include reset;
+@include keyframes;
 body{
   @include ff;
   @include fw;
   @include fs;
   @include dp;
   @include color;
+  @include anime;
   width:100%;
   .img__reset{
     font-size:0;

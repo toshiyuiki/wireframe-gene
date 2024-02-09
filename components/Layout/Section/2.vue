@@ -1,6 +1,6 @@
 <template>
   <!--html-->
-  <section v-if="(!props.section_option)" class="section__2">
+  <section v-if="(!props.section_option)" class="section__2 anime__bottom-up" data-scroll="fin">
     <div class="sec__in__l">
       <p v-html="section__2__use.text" class="fs__txt__40 color__txt__black"></p>
     </div>
